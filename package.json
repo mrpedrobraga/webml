@@ -1,0 +1,25 @@
+{
+  "name": "webml",
+  "displayName": "Web Markup Language",
+  "description": "Syntax highlighting for a markup language for designing web documents.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "webml",
+      "aliases": ["Web Markup Language", "webml"],
+      "extensions": [".wml",".www",".w"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "webml",
+      "scopeName": "webml",
+      "path": "./syntaxes/webml.tmLanguage.json"
+    }]
+  }
+}
